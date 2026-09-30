@@ -1,0 +1,17 @@
+# Agent Manifest — AgentRegistry entry point
+# This file is required for AgentRegistry auto-discovery (lazy-load architecture)
+
+id: "SVC-C2-128"
+name: "ServiceContractRenewalExceptionRouter"
+namespace: "svc"
+version: "0.1.0"
+description: "ServiceContractRenewalExceptionRouter"
+enabled: true
+category: "Cat 2"
+industry: "SVC"
+base_type: "DocGenerationAgent"  # RAGAgent | ChatAgent | ReActAgent | DocGenerationAgent
+class: "src.graph.graph.ServiceContractRenewalExceptionRouterAgent"
+required_trust_level: "VERIFIED_EXTERNAL"
+requires:
+  secrets: []
+  extras: []

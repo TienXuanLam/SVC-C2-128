@@ -1,0 +1,4 @@
+# Runtime parameters (not read by AgentRegistry — kept separate from agent.yaml by design)
+max_retry: 3
+memory_enabled: false
+timeout_s: 30
